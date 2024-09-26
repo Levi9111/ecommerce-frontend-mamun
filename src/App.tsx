@@ -1,12 +1,14 @@
-import { Button } from './components/ui/button';
+import { Outlet } from 'react-router-dom';
+import Footer from './components/Layout/Footer/Footer';
+import Navbar from './components/Layout/Navbar/Navbar';
 import { useGetAllProductsQuery } from './redux/product/productApi';
 
 const App = () => {
   const { data } = useGetAllProductsQuery(undefined);
-  console.log(data);
   return (
-    <div>
-      <Button variant='destructive'>Test</Button>
+    <div className='relative'>
+      <Outlet />
+      <Footer />
     </div>
   );
 };
