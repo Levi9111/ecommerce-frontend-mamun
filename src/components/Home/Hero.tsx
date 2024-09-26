@@ -9,7 +9,7 @@ const companies = ['A', 'B', 'C', 'D', 'E', 'F'];
 const Hero = () => {
   return (
     <div>
-      <div className='w-full h-screen overflow-hidden relative'>
+      <div className='w-full h-screen overflow-hidden relative border-b-[1px] border-white'>
         <img
           src={hero1}
           alt='Hero'
@@ -35,7 +35,7 @@ const Hero = () => {
       >
         <ul className='flex items-center justify-between w-screen mr-60'>
           {companies.map((item, index) => (
-            <li key={index} className=''>
+            <li key={index} className='text-[#FDC417] font-fundamento'>
               {item}
             </li>
           ))}

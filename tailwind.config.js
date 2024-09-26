@@ -55,6 +55,9 @@ export default {
       },
       backgroundImage: {
         'stone-pattern': 'url(./src/assets/images/stone.png)',
+        'brass-pattern': 'url(./src/assets/images/brass.webp)',
+        'copper-pattern': 'url(./src/assets/images/copper.webp)',
+        'kansa-pattern': 'url(./src/assets/images/kanssa.webp)',
       },
       fontFamily: {
         fundamento: ['Fondamento', 'cursive'],
