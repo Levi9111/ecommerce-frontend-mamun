@@ -63,6 +63,12 @@ export default {
         fundamento: ['Fondamento', 'cursive'],
         sourceSans: ['Source Sans 3', 'sans-serif'],
       },
+      backgroundSize: {
+        50: '50%',
+        100: '100%',
+        115: '115%',
+        150: '150%',
+      },
     },
   },
   plugins: [require('tailwindcss-animate')],
